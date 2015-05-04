@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 
-version = VERSION_NAME
-group = GROUP
+version = 1.5
+group = com.pedant.weetalert
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion 21
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 9
